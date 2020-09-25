@@ -28,6 +28,9 @@ response = requests.post("https://www.reddit.com/api/v1/access_token", auth=clie
 
 print("Getting files...")
 
+## TODO: a session (access_token) remains valid for 3600 seconds.
+## datetime can used to see when the previous request for access_token was made (if the previous request timestamp is saved to a file) and decide whether to make a new request or use the old token.
+
 access_token = response.json().get('access_token')
 authorization_str = "bearer "+access_token
 headers = {"Authorization": authorization_str, "User-Agent": "saved-script/0.1 by /u/devprabal"}
