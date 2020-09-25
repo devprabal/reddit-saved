@@ -1,3 +1,9 @@
+<p style="text-align: center">
+    <a href="https://t.me/addstickers/reddit_pack">
+        <img src="reddit_pack_56012681.png" width="100px" height="100px" />
+    </a>
+</p>
+
 ## Usage
 
 :one: Get reddit credentials by setting up an app [here](https://www.reddit.com/prefs/apps/) by following [this reddit wiki](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps)
